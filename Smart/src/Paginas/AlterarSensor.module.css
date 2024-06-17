@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+.conteiner {
+    display: flex;
+    height: auto;  
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-size:24px;
+    font-family: "Questrial", sans-serif;
+
+}
+
+.formulario {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-claro);
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    align-items: center;
+    font-family: "Questrial", sans-serif;
+
+}
+
+.campo {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+
+}
+
+.botao {
+    background-color:rgba(66, 162, 170, 1) ;
+    color: rgb(255,255,255);
+    border-color: rgba(66, 162, 170, 1) ;
+   
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+
+}
+.mensagem {
+    font-size: .9rem;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 1%;
+    margin-bottom: 1rem;  
+    color: red; 
+    font-family: "Questrial", sans-serif;
+
+}
+
+.botaoExcluir{
+    margin-top: 3%;
+    background-color:rgba(66, 162, 170, 1) ;
+    border-color: rgba(66, 162, 170, 1) ;
+    color: rgb(255,255,255);
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+}

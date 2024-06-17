@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255);
+    height: 100vh; /* Ajuste para ocupar toda a altura da tela */
+}
+
+.titulo {
+    color: rgba(66, 162, 170, 1);
+    font-size: 3rem; /* Tamanho ajustado para desktop */
+    font-family: 'Krona One', sans-serif;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px; /* Espaçamento ajustado */
+    padding: 20px; /* Espaçamento ajustado */
+    font-size: 1.6rem; /* Tamanho ajustado para desktop */
+    max-width: 500px; /* Ajuste no tamanho máximo */
+}
+
+.campo {
+    margin-top: 10px; /* Espaçamento ajustado */
+    margin-bottom: 10px; /* Espaçamento ajustado */
+    padding: 10px; /* Espaçamento ajustado */
+    border-radius: 8px;
+    font-size: 1.6rem; /* Tamanho ajustado para desktop */
+}
+
+.botao {
+    font-family: 'Krona One', sans-serif;
+    background-color: rgba(66, 162, 170, 1);
+    color: white;
+    padding: 10px 20px; /* Espaçamento ajustado */
+    border-radius: 50px; /* Redução do raio */
+    width: 50%; /* Ajuste na largura */
+    max-width: 300px; /* Largura máxima ajustada */
+    margin-top: 20px; /* Espaçamento ajustado */
+    font-size: 1.6rem; /* Tamanho ajustado para desktop */
+    cursor: pointer;
+}
+
+.mensagem {
+    font-size: 1.6rem; /* Tamanho ajustado para desktop */
+    font-weight: 600;
+    margin-top: -6px;
+    margin-bottom: 1rem;  
+    color: red; 
+}
+
+.logo {
+    width: 45%;
+    max-width: 300px; /* Largura máxima ajustada */
+}

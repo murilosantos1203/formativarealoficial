@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+h1 {
+    color: rgba(136, 234, 240, 1);
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px; /* Tamanho ajustado para desktop */
+    margin-bottom: 20px;
+}
+
+table {
+    margin-top: 20px; /* Ajuste no espaçamento */
+    font-family: 'Questrial', sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 10px; /* Redução no padding */
+    border-radius: 10px; /* Redução do raio */
+    font-size: 16px; /* Tamanho ajustado para desktop */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid rgba(66, 162, 170, 1);
+    padding: 10px; /* Redução no padding */
+    text-align: left;
+}
+
+tr {
+    border: 1px solid rgba(66, 162, 170, 1);
+}
+
+th {
+    background-color: rgba(66, 162, 170, 1);
+    color: rgba(136, 234, 240, 1);
+}
+
+a {
+    color: rgba(66, 162, 170, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+.logolista {
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px; /* Tamanho ajustado para desktop */
+    margin-top: 20px; /* Ajuste no espaçamento */
+}
+
+.conteinerFiltro {
+    display: flex; /* Torna o contêiner um contêiner flexível */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    margin-bottom: 20px; /* Adiciona um espaço inferior para separação */
+}
+
+.botaoCadastrar{
+    font-family: 'Questrial', sans-serif;
+    color: aliceblue;
+    background-color: rgba(66, 162, 170, 1);
+    width: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    border-radius: 30px;
+
+}
+.btnConteiner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10.5%;
+    padding-right: 5%;
+    
+}
+.botao{
+    font-family: 'Questrial', sans-serif;
+    color: aliceblue;
+    background-color: rgba(66, 162, 170, 1);
+    width: 159px;
+    text-align: center;
+    padding: 15px;
+    height:50px;
+    border-radius: 30px;
+
+}
